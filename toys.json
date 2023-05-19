@@ -1,0 +1,49 @@
+{
+    "legoSets": [
+      {
+        "picture": "https://www.lego.com/cdn/cs/set/assets/blt2b05fec27aed53b5/75358.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1",
+        "toyName": "Build and Learn Set",
+        "sellerName": "BrickWorld",
+        "sellerEmail": "info@brickworld.com",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Build and Learn Set provides an engaging and educational building experience for children.",
+        "subCategory": "educational"
+      },
+      {
+        "picture": "https://www.lego.com/cdn/cs/set/assets/bltcf45b4ce65ffaa1e/41725.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1",
+        "toyName": "Adventure Explorer Kit",
+        "sellerName": "BrickEmpire",
+        "sellerEmail": "sales@brickempire.com",
+        "price": 39.99,
+        "rating": 4.2,
+        "availableQuantity": 5,
+        "description": "Embark on exciting adventures with the Adventure Explorer Kit, perfect for recreational play.",
+        "subCategory": "recreational"
+      },
+      {
+        "picture": "https://www.lego.com/cdn/cs/set/assets/blt3dce594a40f04cd0/5007895.jpg?format=webply&fit=bounds&quality=100&width=320&height=320&dpr=1",
+        "toyName": "Robot Inventor Set",
+        "sellerName": "BrickTech",
+        "sellerEmail": "support@bricktech.com",
+        "price": 89.99,
+        "rating": 4.8,
+        "availableQuantity": 3,
+        "description": "Unleash your creativity and build amazing robots with the Robot Inventor Set.",
+        "subCategory": "productive"
+      },
+      {
+        "picture": "https://www.lego.com/cdn/cs/set/assets/blt973ccc68818dc788/41713.png?format=webply&fit=bounds&quality=100&width=320&height=320&dpr=1",
+        "toyName": "Space Discovery Set",
+        "sellerName": "GalaxyBricks",
+        "sellerEmail": "sales@galaxybricks.com",
+        "price": 49.99,
+        "rating": 4.6,
+        "availableQuantity": 8,
+        "description": "Embark on a space exploration adventure with the Space Discovery Set.",
+        "subCategory": "exploration"
+      }
+    ]
+  }
+  
