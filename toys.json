@@ -1,49 +1,49 @@
 {
     "legoSets": [
-      {
-        "picture": "https://www.lego.com/cdn/cs/set/assets/blt2b05fec27aed53b5/75358.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1",
-        "toyName": "Build and Learn Set",
-        "sellerName": "BrickWorld",
-        "sellerEmail": "info@brickworld.com",
-        "price": 29.99,
-        "rating": 4.5,
-        "availableQuantity": 10,
-        "description": "The Build and Learn Set provides an engaging and educational building experience for children.",
-        "subCategory": "educational"
-      },
-      {
-        "picture": "https://www.lego.com/cdn/cs/set/assets/bltcf45b4ce65ffaa1e/41725.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1",
-        "toyName": "Adventure Explorer Kit",
-        "sellerName": "BrickEmpire",
-        "sellerEmail": "sales@brickempire.com",
-        "price": 39.99,
-        "rating": 4.2,
-        "availableQuantity": 5,
-        "description": "Embark on exciting adventures with the Adventure Explorer Kit, perfect for recreational play.",
-        "subCategory": "recreational"
-      },
-      {
-        "picture": "https://www.lego.com/cdn/cs/set/assets/blt3dce594a40f04cd0/5007895.jpg?format=webply&fit=bounds&quality=100&width=320&height=320&dpr=1",
-        "toyName": "Robot Inventor Set",
-        "sellerName": "BrickTech",
-        "sellerEmail": "support@bricktech.com",
-        "price": 89.99,
-        "rating": 4.8,
-        "availableQuantity": 3,
-        "description": "Unleash your creativity and build amazing robots with the Robot Inventor Set.",
-        "subCategory": "productive"
-      },
-      {
-        "picture": "https://www.lego.com/cdn/cs/set/assets/blt973ccc68818dc788/41713.png?format=webply&fit=bounds&quality=100&width=320&height=320&dpr=1",
-        "toyName": "Space Discovery Set",
-        "sellerName": "GalaxyBricks",
-        "sellerEmail": "sales@galaxybricks.com",
-        "price": 49.99,
-        "rating": 4.6,
-        "availableQuantity": 8,
-        "description": "Embark on a space exploration adventure with the Space Discovery Set.",
-        "subCategory": "exploration"
-      }
+        {
+            "picture": "lego_set5.jpg",
+            "toyName": "Creative Building Blocks",
+            "sellerName": "BrickMaster",
+            "sellerEmail": "sales@brickmaster.com",
+            "price": 19.99,
+            "rating": 4.4,
+            "availableQuantity": 15,
+            "description": "Unleash your imagination with the Creative Building Blocks set, perfect for endless building possibilities.",
+            "subCategory": "educational"
+          },
+          {
+            "picture": "lego_set6.jpg",
+            "toyName": "City Fire Station",
+            "sellerName": "BrickTown",
+            "sellerEmail": "info@bricktown.com",
+            "price": 59.99,
+            "rating": 4.7,
+            "availableQuantity": 6,
+            "description": "Join the brave firefighters of Brick City with the City Fire Station set, providing both play and educational value.",
+            "subCategory": "recreational"
+          },
+          {
+            "picture": "lego_set7.jpg",
+            "toyName": "Technic Construction Vehicles",
+            "sellerName": "BrickMasters",
+            "sellerEmail": "support@brickmasters.com",
+            "price": 79.99,
+            "rating": 4.9,
+            "availableQuantity": 4,
+            "description": "Build and operate powerful construction vehicles with the Technic Construction Vehicles set, an ideal choice for productive play.",
+            "subCategory": "productive"
+          },
+          {
+            "picture": "lego_set8.jpg",
+            "toyName": "Deep Sea Exploration",
+            "sellerName": "OceanBricks",
+            "sellerEmail": "sales@oceanbricks.com",
+            "price": 34.99,
+            "rating": 4.3,
+            "availableQuantity": 9,
+            "description": "Dive into an underwater adventure with the Deep Sea Exploration set, combining both building and exploration elements.",
+            "subCategory": "exploration"
+          }
     ]
   }
   

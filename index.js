@@ -56,6 +56,13 @@ async function run() {
         res.send(result);
         
     })
+    app.get('/alltoys', async(req, res) => {
+        
+        
+        const result = await legoLibrary.find().toArray();
+        res.send(result);
+        
+    })
     
 
 
