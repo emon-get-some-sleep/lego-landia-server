@@ -6,7 +6,7 @@ const cors = require('cors');
 
 require('dotenv').config();
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 // middlware
 
@@ -62,6 +62,23 @@ async function run() {
         const result = await legoLibrary.find().toArray();
         res.send(result);
         
+    })
+
+    // find by id to view details
+    
+    app.get('/toys/:id', async(req, res) => {
+      const id = req.params.id;
+      console.log(id);
+      const query = {_id : new ObjectId(id)};
+      const result = await legoLibrary.findOne(query);
+      res.send(result);
+    })
+
+    // add a new toy
+    app.post('/newtoy', async(req, res) => {
+      const newToy = req.body;
+      const result = await legoLibrary.insertOne(newToy);
+      res.send(result);
     })
     
 
