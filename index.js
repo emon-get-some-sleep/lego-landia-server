@@ -64,6 +64,7 @@ async function run() {
         res.send(result);
         
     })
+
     app.get('/alltoys', async(req, res) => {
         
         
@@ -89,6 +90,30 @@ async function run() {
       res.send(result);
     })
     
+    // api for updating toys
+    app.put('/update/:id', async(req, res) => {
+      const id = req.params.id;
+      console.log(id);
+      const newInfo = req.body;
+      const filter = {_id : new ObjectId(id)};
+      const options = { upsert: true };
+      const updatedDoc = {
+        $set: {
+          picture: newInfo.picture,
+          toyName: newInfo.toyName,
+          sellerName: newInfo.sellerName,
+          sellerEmail: newInfo.sellerEmail,
+          price: newInfo.price,
+          rating: newInfo.rating,
+          availableQuantity: newInfo.availableQuantity,
+          description: newInfo.description,
+          subCategory: newInfo.subCategory
+        }
+      }
+
+      const result = await legoLibrary.updateOne(filter, updatedDoc, options);
+      res.send(result);
+    })
 
 
 
