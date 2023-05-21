@@ -61,7 +61,7 @@ async function run() {
     app.get('/mytoys', async(req, res) => {
         const queryString = req.query.email;
         const query = {sellerEmail : queryString};
-        const result = await legoLibrary.find(query).toArray();
+        const result = await legoLibrary.find(query).sort({price: -1}).toArray();
         res.send(result);
         
     })
