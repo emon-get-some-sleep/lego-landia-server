@@ -115,7 +115,16 @@ async function run() {
       res.send(result);
     })
 
+    // api for deleting toys
 
+    app.delete('/delete/:id', async(req, res) => {
+      const id = req.params.id;
+      const query = {_id : new ObjectId(id)};
+      const result = await legoLibrary.deleteOne(query);
+
+      res.send(result);
+
+    })
 
 
 
