@@ -56,6 +56,14 @@ async function run() {
         res.send(result);
         
     })
+    // api for my toys 
+    app.get('/mytoys', async(req, res) => {
+        const queryString = req.query.email;
+        const query = {sellerEmail : queryString};
+        const result = await legoLibrary.find(query).toArray();
+        res.send(result);
+        
+    })
     app.get('/alltoys', async(req, res) => {
         
         
