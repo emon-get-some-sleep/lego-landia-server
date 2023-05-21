@@ -45,6 +45,7 @@ async function run() {
 
 
     const legoLibrary = client.db('legoSets').collection('legoCollection');
+    const blogs = client.db('legoSets').collection('blogs');
 
 
 
@@ -65,10 +66,22 @@ async function run() {
         
     })
 
+    // api for all toys
+
     app.get('/alltoys', async(req, res) => {
         
         
         const result = await legoLibrary.find().limit(20).toArray();
+        res.send(result);
+        
+    })
+
+    // api for all blogs
+
+    app.get('/blogs', async(req, res) => {
+        
+        
+        const result = await blogs.find().toArray();
         res.send(result);
         
     })

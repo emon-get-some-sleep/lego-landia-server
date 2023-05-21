@@ -43,6 +43,38 @@
             "availableQuantity": 8,
             "description": "Embark on a space exploration mission with the Space Shuttle Explorer set, featuring a detailed space shuttle and astronaut figures.",
             "subCategory": "exploration"
+          },
+          {
+            
+            "title": " What is an access token and refresh token?",
+            "image": "https://img.freepik.com/free-photo/futuristic-smart-city-with-5g-global-network-technology_53876-98438.jpg?w=740&t=st=1684667707~exp=1684668307~hmac=3ae37ee65b3e8e61d82cd04e42533e4893ab68db16d88ffd9f21f74b92403f0d", 
+            
+            "article": "An access token and a refresh token are two pieces of information that help secure and manage your access to online services, like websites or apps, without needing to constantly enter your username and password. Imagine you're going to a party at a friend's house. The access token is like a special stamp or card that your friend gives you when you arrive. This token is used as proof that you're allowed to enter the party and eat all the fun foods and biriyani inside. Similarly, an access token in the digital world is a small piece of code or data that is given to you by a website or app after you successfully log in. Now, let's say you want to stay at the party for a while, but you also don't want to keep showing your access token every time you want to do something, like grab a mutton piece or play a game. That's where the refresh token comes in. It's like having a VIP pass that you can use to refresh or renew your access token whenever it's about to expire. It's a convenient way to maintain your access to the party without bothering the host with your access token every time."
+          
+          },
+          {
+            
+            "title": "What are some difference between SQL and NoSQL databases?",
+            "image": "https://img.freepik.com/free-photo/creative-cloud-concept-glass-cube-cloudscape-digital-metaverse-infrastructure_90220-1366.jpg?w=740&t=st=1684669792~exp=1684670392~hmac=e7ab0cd6528045437aa53cda7f5e3cfd86eae1066ce619d12e99a8a2809bdc1d", 
+            
+            "article": "If you have a large collection of books, and you want to organize them beautifully on a bookshelf. SQL databases are like bookshelves with predefined compartments and labels for different categories of books. Each book has a specific place on the shelf, and you can easily find books by their title, author, or other attributes. SQL databases are structured and follow a specific schema or blueprint. Now, imagine you have a big box where you can simply throw in books without worrying about arranging them in any particular order. NoSQL databases are like this big box where you can store books without any fixed structure or predefined categories. You can just toss books into the box and retrieve them later based on your needs. NoSQL databases are flexible and allow you to store and retrieve data without strict rules or schemas."
+          
+          },
+          {
+            
+            "title": "What is express js? What is Nest JS?",
+            "image": "https://img.freepik.com/free-photo/cityscape-singapore_335224-688.jpg?w=740&t=st=1684670028~exp=1684670628~hmac=3267e2b01b69098a2bdcb1f6a603bd208ebbd73c8953a143e4161827c1a3eb06", 
+            
+            "article": "Let's you're planning a road trip with your friends, and you need a way to get from one place to another efficiently. Express.js is like a helpful and reliable GPS navigation system for your trip. It provides a set of tools and features that make it easy to build web applications and APIs (Application Programming Interfaces) using JavaScript. Just like a GPS guides you with directions, Express.js guides developers in creating routes, handling requests and responses, managing middleware (additional functionality), and organizing the flow of data for web application. Now, imagine you're building a complex and multi-level city with various buildings, roads, and neighborhoods. Nest.js is like a framework that helps you plan, organize, and construct this city in a systematic and efficient manner. It's a framework for building scalable and modular server-side applications using JavaScript or TypeScript. Nest.js provides a structure and set of rules for organizing your code, managing dependencies, and creating reusable modules. It simplifies the development process by enforcing good practices and allowing you to focus on building the specific features and functionalities of your application."
+          
+          },
+          {
+            
+            "title": "What is MongoDB aggregate and how does it work?",
+            "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1684670207~exp=1684670807~hmac=021e5e65a30b12186f5d16a9524939ee59b2aa860aabd9e12f0443995d66241a", 
+            
+            "article": "Imagine you have a big box full of colorful balls, and you want to sort and group them based on their color. MongoDB's aggregate function is like a magical tool that helps you do this sorting and grouping with ease. The aggregate function in MongoDB is used to perform advanced operations on your data, such as grouping, sorting, filtering, and calculating statistics. It allows you to process large amounts of data in a structured and organized way."
+          
           }
     ]
   }
