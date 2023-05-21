@@ -16,7 +16,7 @@ app.use(cors());
 
 const port = process.env.PORT || 5000;
 
-const toys = require('./toys.json');
+
 
 
 app.get('/', (req, res) => {
@@ -34,18 +34,27 @@ const client = new MongoClient(uri, {
     version: ServerApiVersion.v1,
     strict: true,
     deprecationErrors: true,
-  }
+  },
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  maxPoolSize: 10,
 });
 
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    client.connect((err) => {
+      if(err){
+        console.error(err);
+        return;
+      }
+    });
     // Send a ping to confirm a successful connection
 
 
     const legoLibrary = client.db('legoSets').collection('legoCollection');
     const blogs = client.db('legoSets').collection('blogs');
+    const gallary = client.db('legoSets').collection('gallary');
 
 
 
@@ -64,6 +73,13 @@ async function run() {
         const result = await legoLibrary.find(query).sort({price: -1}).toArray();
         res.send(result);
         
+    })
+
+    // api for gallary
+
+    app.get('/gallary', async(req, res) => {
+      const result = await gallary.find().toArray();
+      res.send(result);
     })
 
     // api for all toys
