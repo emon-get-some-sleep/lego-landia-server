@@ -128,6 +128,16 @@ async function run() {
       res.send(result);
     })
 
+    // api to find toy by search
+
+    app.get('/findtoys/:text', async(req, res) => {
+      // const toyText = req.params.id;
+      const queryString = req.params.text;
+      const query = { toyName: { $regex: queryString, $options: "i" } }
+      const result = await legoLibrary.find(query).toArray();
+      res.send(result);
+    });
+
     // api for deleting toys
 
     app.delete('/delete/:id', async(req, res) => {
